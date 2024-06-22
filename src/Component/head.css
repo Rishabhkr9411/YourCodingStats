@@ -1,0 +1,47 @@
+.header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.logo-img {
+    width: 60px;  /* Set to the desired width */
+    height: 60px; /* Set to the desired height */
+    object-fit: cover; /* Ensure the image covers the square without distortion */
+    border-radius: 50%; /* Optional: Make it a circle */
+}
+.logo-name{
+    font-size: 1.1rem;
+    font-weight: 50;
+    /* margin-left: 3px; */
+    color: aqua;
+
+}
+.logo-name:hover {
+    color:#f0a500;
+}
+
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav-items:hover {
+    color: #f0a500;
+    cursor: pointer;
+}

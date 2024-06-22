@@ -1,0 +1,81 @@
+/* .foot {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: column; */
+/* } */ */
+/* .foot-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+ /* Ensure the footer stays at the bottom of the page */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.foot-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.foot-content div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.foot-bottom {
+    padding-top: 10px;
+    border-top: 1px solid #444;
+}
+
+.about, .quick-links, .contacts {
+    padding: 10px;
+}
+
+.quick-links p, .contacts p {
+    margin: 5px 0;
+}
+
+.quick-links p:hover, .contacts p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .foot-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot-content div {
+        margin: 10px 0;
+    }
+}
+.about{
+    padding: 10px;
+    text-align: left;
+    color: blanchedalmond;
+}
+
+
