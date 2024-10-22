@@ -2,8 +2,8 @@
 
 ## Screenshot
 ![Home Page](./src/assests/Screenshot%202024-10-23%20030548.png)
-!(./src/assests/Screenshot%202024-10-23%20030638.png)
-![Home Page](./src/assests/Screenshot%202024-10-23%20030657.png)
+![Profile page](./src/assests/Screenshot%202024-10-23%20030638.png)
+![Code Forces](./src/assests/Screenshot%202024-10-23%20030657.png)
 
 # React + Vite
 
