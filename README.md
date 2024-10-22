@@ -1,5 +1,10 @@
 ## [Coding Stats](https://yourcodingstats.netlify.app/)
 
+## Screenshot
+![Home Page](./src/assests/Screenshot%202024-10-23%20030548.png)
+!(./src/assests/Screenshot%202024-10-23%20030638.png)
+![Home Page](./src/assests/Screenshot%202024-10-23%20030657.png)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
